@@ -97,5 +97,15 @@ function celebrate2() {
   }, 300);
 }
 
-
 breakWall();
+const audio = document.querySelector(".zvuk");
+audio.volume = 0.5;
+document.body.addEventListener("click",skloniMute)
+function skloniMute() {
+  audio.muted = false;
+  audio.play();
+}
+
+
+
+
