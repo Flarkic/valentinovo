@@ -45,6 +45,11 @@ function celebrate1() {
   const tekst = document.createElement("p");
   const btn1 = document.querySelector(".da1");
   const btn2 = document.querySelector(".da2");
+  const grli = document.querySelector(".medo-grli");
+  const cvet = document.querySelector(".medo-cvet");
+  grli.classList.remove("sakriveno");
+  grli.classList.add("prikazi");
+  cvet.classList.add("sakriveno");
 
   btn1.disabled = true;
   btn2.disabled = true;
@@ -73,6 +78,11 @@ function celebrate2() {
   const tekst = document.createElement("p");
   const btn1 = document.querySelector(".da1");
   const btn2 = document.querySelector(".da2");
+  const grli = document.querySelector(".medo-grli");
+  const cvet = document.querySelector(".medo-cvet");
+  grli.classList.remove("sakriveno");
+  grli.classList.add("prikazi");
+  cvet.classList.add("sakriveno");
 
   btn1.disabled = true;
   btn2.disabled = true;
